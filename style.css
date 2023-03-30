@@ -1,0 +1,28 @@
+h1{
+    color: blueviolet;
+    
+}
+
+th{
+    padding: 1-px;
+
+}
+
+
+table{
+    display:grid;
+    width: 100%;
+    
+}
+
+.header-container{
+   
+}
+
+.contact{
+    grid-template-columns: 1;
+    display:grid;
+    align-items: stretch;
+
+}
+
