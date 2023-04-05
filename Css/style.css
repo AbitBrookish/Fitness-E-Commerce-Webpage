@@ -15,9 +15,7 @@ table{
     
 }
 
-.header-container{
    
-}
 
 .contact{
     grid-template-columns: 1;
@@ -34,7 +32,7 @@ header {
 }
 
 logo, img {
-    height: 90px;px;
+    height: 90px;
     width: 90px;
 }
 
@@ -59,5 +57,10 @@ nav {
     font-size: 1.5rem;
 }
 
+/* This is the css for the products page*/
 
+.products-containers {
+    display: grid;
+    
+}
 
