@@ -15,15 +15,93 @@ table{
     
 }
 
-.header-container{
    
-}
 
 .contact{
     grid-template-columns: 1;
     display:grid;
     align-items: stretch;
 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(50, 137, 112);
+}
+
+logo, img {
+    height: 90px;
+    width: 90px;
+}
+
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+.main-navbar__link {
+    display: flex;
+    margin-right: 10px;
+    color:black
+     
+}
+
+.link-container {
+    display: flex;
+    justify-content: center; 
+    margin-right: 300px;
+    justify-items: space-between;
+    font-size: 1.5rem;
+}
+
+/* This is the css for the products page*/
+
+.products-containers {
+    display: grid;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(50, 137, 112);
+}
+
+logo, img {
+    height: 90px;
+    width: 90px;
+}
+
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+.main-navbar__link {
+    display: flex;
+    margin-right: 10px;
+    color:black
+     
+}
+
+.link-container {
+    display: flex;
+    justify-content: center; 
+    margin-right: 300px;
+    justify-items: space-between;
+    font-size: 1.5rem;
+}
+
+/* This is the css for the products page*/
+
+.products-containers {
+    display: grid;
+    
 }
 
 .fitness-logo{
