@@ -1,45 +1,43 @@
-h1{
-    color: blueviolet;
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-th{
-    padding: 1-px;
-
-}
-
-
-table{
-    display:grid;
-    width: 100%;
-    
+h1 {
+  color: blueviolet;  
 }
 
    
 
-.contact{
-    grid-template-columns: 1;
-    display:grid;
-    align-items: stretch;
-
+.contact {
+  grid-template-columns: 1;
+  display:grid;
+  align-items: stretch;
 }
 
-header {
+/* Header Styles */
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(50, 137, 112);
+    height: 90px;
 }
 
-logo, img {
-    height: 90px;
+
+.fitness-logo {
     width: 90px;
 }
+.fitness-logo:hover, .fitness-logo:active {
+  opacity: 0.8;
+}
 
 
-nav {
+.main-navbar {
    display: flex;
    align-items: center;
+   justify-content: center;
 }
 
 .main-navbar__link {
@@ -57,19 +55,20 @@ nav {
     font-size: 1.5rem;
 }
 
-/* This is the css for the products page*/
+/* This is the css for the products page */
 
 .products-containers {
     display: grid;
     
 }
 
-header {
+/* No need for a duplicate selector on the same css file */
+/* header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(50, 137, 112);
-}
+} */
 
 logo, img {
     height: 90px;
