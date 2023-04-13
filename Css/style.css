@@ -43,6 +43,7 @@ h1 {
 .link-container {
   display: flex;
   justify-content: space-around;
+  margin-left: 120px;
   gap: 80px;
 }
 
