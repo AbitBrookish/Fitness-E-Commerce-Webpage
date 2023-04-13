@@ -40,20 +40,66 @@ h1 {
    justify-content: center;
 }
 
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.main-navbar__link {
+  text-decoration: none;
+  background-color: rgb(113, 183, 163);
+  border: 2px solid black;
+  padding: 6px 16px;
+  border-radius: 8px;
+}
+.main-navbar__link:hover,
+.main-navbar__link:active {
+  /* possible box shadow, some fx */
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#search-bar {
+  /* make our own search bar */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+#cart {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
 .main-navbar__link {
     display: flex;
     margin-right: 10px;
     color:black
      
 }
-
+/* 
 .link-container {
     display: flex;
     justify-content: center; 
     margin-right: 300px;
     justify-items: space-between;
     font-size: 1.5rem;
-}
+} */
 
 /* This is the css for the products page */
 
@@ -81,20 +127,20 @@ nav {
    align-items: center;
 }
 
-.main-navbar__link {
+/* .main-navbar__link {
     display: flex;
     margin-right: 10px;
-    color:black
-     
-}
+    color:black 
+} */
 
+/* 
 .link-container {
     display: flex;
     justify-content: center; 
     margin-right: 300px;
     justify-items: space-between;
     font-size: 1.5rem;
-}
+} */
 
 /* This is the css for the products page*/
 
