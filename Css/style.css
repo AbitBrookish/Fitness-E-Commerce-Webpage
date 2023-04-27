@@ -14,8 +14,9 @@ main {
   flex: 1;
 }
 
-h1 {
-  color: blueviolet;  
+h4{
+  font-size: 30px;
+  color: black;
 }
 
 logo, img {
@@ -92,12 +93,13 @@ logo, img {
 #user {
   width: 30px;
   height: 30px;
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
+
 #cart {
   width: 30px;
   height: 30px;
-  margin-right: 8px;
+  margin-right: 0.75rem;
 }
 
 .main-navbar__link {
@@ -106,62 +108,11 @@ logo, img {
     color:black
      
 }
-/* 
-.link-container {
-    display: flex;
-    justify-content: center; 
-    margin-right: 300px;
-    justify-items: space-between;
-    font-size: 1.5rem;
-} */
 
-/* This is the css for the products page */
 
-.products-containers {
-    display: grid;
-    
-}
 
-/* No need for a duplicate selector on the same css file */
-/* header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(50, 137, 112);
-} */
 
-nav {
-   display: flex;
-   align-items: center;
-}
 
-/* .main-navbar__link {
-    display: flex;
-    margin-right: 10px;
-    color:black 
-} */
-
-/* 
-.link-container {
-    display: flex;
-    justify-content: center; 
-    margin-right: 300px;
-    justify-items: space-between;
-    font-size: 1.5rem;
-} */
-
-/* This is the css for the products page*/
-
-.products-containers {
-    display: grid;
-    
-}
-
-h4{
-    font-size: 30px;
-    color: black;
-    display: flex;   
-}
 
 
 /* footer */
