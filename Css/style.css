@@ -92,12 +92,13 @@ logo, img {
 #user {
   width: 30px;
   height: 30px;
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
+
 #cart {
   width: 30px;
   height: 30px;
-  margin-right: 8px;
+  margin-right: 0.75rem;
 }
 
 .main-navbar__link {
