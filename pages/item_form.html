@@ -46,62 +46,70 @@
   <main class="item-form__container">
     <h1 class="item-form__title">Add Items</h1>
     <div class="item-form__form-box__container">
-      <div class="item-form__info-input__container"></div>
-      <section class="item-form__img__container">
-        <form action="" class="img__upload">
-          <label for="photo">Choose a File</label>
-          <input required type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png">
-        </form>
-      </section>
-      <section class="item-form__form-box">
-        <!-- FORMS -->
-        <form action="" id="input-form">
-          <table class="input-form__table">
-            <tr class="table__rows">
-              <td class="table__row-label">
-                <label for="category">Category</label>
-              </td>
-              <td class="table__row-input">
-                <select autofocus name="category" id="category">
-                  <option value="men">Men's Apparel</option>
-                  <option value="women">Women's Apparel</option>
-                  <option value="products">Products/Other</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="table__rows">
-              <td class="table__row-label">
-                <label for="item-name">Item Name</label>
-              </td>
-              <td class="table__row-input">
-                <input required type="text" name="item-name" id="item-name">
-              </td>
-            </tr>
-            <tr class="table__rows">
-              <td class="table__row-label">
-                <label for="description">Description</label>
-              </td>
-              <td class="table__row-input">
-                <textarea required name="description" id="description" cols="40" rows="10"></textarea>
-              </td>
-            </tr>
-            <tr class="table__rows">
-              <td class="table__row-label">
-                <label for="manufacturer">Manufacturer</label>
-              </td>
-              <td class="table__row-input">
-                <input required type="text" name="manufacturer" id="manufacturer">
-              </td>
-            </tr>
-          </table>
-        </form>
-        <!-- FORM BUTTONS -->
-        <div class="btn__container">
-          <button id="form-submit">Submit</button>
-          <button id="form-clear">Clear</button>
-        </div>
-      </section>
-      <!-- border -->
+      <div class="item-form__info-input__container">
+        <section class="item-form__img__container">
+          <form action="" class="img__upload">
+            <label for="photo">Choose a File</label>
+            <input required type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png">
+          </form>
+          <div class="uploaded__container">
+            <!-- uploaded image appears here -->
+          </div>
+          <!-- eventually create drag/drop zone for image upload -->
+        </section>
+  
+        <section class="item-form__form-box">
+          <!-- FORMS -->
+          <form action="" id="input-form">
+            <table class="input-form__table">
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="category">Category</label>
+                </td>
+                <td class="table__row-input">
+                  <select autofocus name="category" id="category">
+                    <option value="men">Men's Apparel</option>
+                    <option value="women">Women's Apparel</option>
+                    <option value="products">Products/Other</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="item-name">Item Name</label>
+                </td>
+                <td class="table__row-input">
+                  <input required type="text" name="item-name" id="item-name">
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="description">Description</label>
+                </td>
+                <td class="table__row-input">
+                  <textarea required name="description" id="description" cols="40" rows="10"></textarea>
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="manufacturer">Manufacturer</label>
+                </td>
+                <td class="table__row-input">
+                  <input required type="text" name="manufacturer" id="manufacturer">
+                </td>
+              </tr>
+            </table>
+          </form>
+          <!-- FORM BUTTONS -->
+          <div class="btn__container">
+            <button id="form-submit">Submit</button>
+            <button id="form-clear">Clear</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- border -->
+    <div class="submission-table__container">
       <!-- table to be updated when input is Submitted -->
       <table id="submission-table">
         <tr class="row-headers">
