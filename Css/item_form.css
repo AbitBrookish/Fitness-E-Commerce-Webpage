@@ -1,0 +1,106 @@
+.item-form__container {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* info input  */
+.item-form__info-input__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* photo upload */
+.item-form__img__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;  
+}
+
+.uploaded__container {
+  border: 1px dotted black;
+  background-color: white;
+  width: 229px;
+  height: 372px;
+}
+
+
+/* photo/item info input */
+.item-form__form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table__row-label {
+  padding: 0.5rem 1rem;
+
+}
+
+.table__row-input {
+  padding: 1.175rem 1rem;
+}
+
+/* span separator */
+#seperate {
+  width: 100%;
+  height: 1px;
+  border: 1px solid rgba(0,0,0,0.25);
+}
+
+/* BUTTONS */
+.btn__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.form-btn {
+  padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+#form-submit:hover,
+#form-submit:active {
+  background-color: rgba(50, 137, 112, 0.619);
+  color: cornsilk;
+  letter-spacing: 0.125rem;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+#form-clear:hover,
+#form-clear:active {
+  background-color: rgba(224, 72, 59, 0.619);
+  color: cornsilk;
+  letter-spacing: 0.125rem;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+
+/* submitted item details */
+#submission-table,
+.row-header__title {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.submission-table__container {
+  width: 100%;
+}
+
+#submission-table {
+  width: 100%;
+}
+
+.row-header__title {
+  background-color: rgba(0,0,0,0.25);
+  padding: 0.25rem;
+}
