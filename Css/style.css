@@ -80,8 +80,24 @@ logo, img {
   gap: 2rem;
 }
 
+#search__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-bar__btn {
+  border: none;
+  background-color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
 #search-bar {
-  /* make our own search bar */
+  padding: 0.35rem;
+  border: none;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
 }
 
 .icon-container {
