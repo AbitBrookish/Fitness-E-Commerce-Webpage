@@ -32,38 +32,32 @@
       </header>       
 
 
-    <div class="flexbox"   style="text-align: center;"><h1>Member Login</h1>
-    </div>
-  
-    <!-- Main Login details-->
-    <main>
-    <form onsubmit="return inputInfo();" action="index.html" method="post" id="inputInfo">
-     <label for="Username"></label>
-      <div style="text-align:center">
-        <input class= "form-control"   type="text" id="Username"   
-          name="Username" required minlength = "6" 
-            maxlength="15" size="25" placeholder="Username">
-      </div>
-
-    <label for="Password"></label>
-      <div style="text-align: center;">
-        <input  class="form-control" type="text" id="Password" 
-          name="Password" required minlength = "25" 
-          maxlength="45" size="25" placeholder="Last Name">
-      </div>
-  
       
-      <div style="text-align: center;">
-           <button class="Login" type="submit" onclick="inputInfo()" value="Login">Login</button>
-      </div>
+      
+      <!-- Main Login details-->
+    <main>
+      <h1 class="login__title">Member Login</h1>
+      <form action="" method="post" id="inputInfo">
+        <div class="inputInfo__username__container">
+          <label for="username"></label>
+          <input required class="form-control" type="text" id="username" name="username" minlength="8" maxlength="16" placeholder="Username">
+        </div>
+
+        <div style="text-align: center;">
+          <label for="password"></label>
+          <input required class="form-control" type="text" id="password" name="password" minlength="8" placeholder="Password">
+        </div>
+    
+        <div>
+          <button id="login-btn">Login</button>
+        </div>
+      </form>  
     </main> 
     
     <!-- footer -->
-        <footer class="footer">
-            <p class="footer__info">Streamline Fitness © 2023</p>
-        </footer>
-
-    </form>  
+    <footer class="footer">
+        <p class="footer__info">Streamline Fitness © 2023</p>
+    </footer>
   </body>
 </body>
 </html>
