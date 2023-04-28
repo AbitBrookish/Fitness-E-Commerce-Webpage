@@ -64,16 +64,22 @@
   padding: 0.2rem 1rem;
   border: none;
   border-radius: 0.3rem;
-
 }
 
 #form-submit:hover,
 #form-submit:active {
-  background-color: rgb(50, 137, 112);
+  background-color: rgba(50, 137, 112, 0.619);
   color: cornsilk;
   letter-spacing: 0.125rem;
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
 
-
+#form-clear:hover,
+#form-clear:active {
+  background-color: rgba(224, 72, 59, 0.619);
+  color: cornsilk;
+  letter-spacing: 0.125rem;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
