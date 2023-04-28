@@ -138,3 +138,21 @@ logo, img {
   letter-spacing: 2px;
   font-size: 1rem;
 }
+
+
+/* Login Title*/
+h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+/* Login Input*/
+.form-control {
+  padding: 10px;
+  width: 300px;
+}
+
