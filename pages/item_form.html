@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/item_form.css">
+  <script src="https://kit.fontawesome.com/d419e20cdd.js" crossorigin="anonymous"></script>
+  <script src="../JS/item_form.js" defer></script>
+  <title>Item Manager</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <logo class="fitness-logo">
+      <a href="/index.html" id="logo">
+        <img src="../images/logo.png">
+      </a>
+    </logo>
+    <nav class="main-navbar">
+      <div class="link-container">
+        <a href="../pages/women-apparel.html" class="main-navbar__link">Women</a>
+        <a href="../pages/men-apparel.html" class="main-navbar__link">Men</a>
+        <a href="../pages/products.html" class="main-navbar__link">Products</a>
+        <a href="../pages/item_form.html" class="main-navbar__link">Item Management</a>
+      </div>
+    </nav>
+    <div class="header-icons">
+      <form action="" method="get" id="search__container">
+        <input type="search" name="searchbar" placeholder="Search..." id="search-bar">
+      </form>
+      <aside class="icon-container">
+        <aside class="icon-container">
+          <!-- <img class="icon" id="user" src="../images/user.png" alt="user icon"> -->
+          <i class="fa-solid fa-person-walking-dashed-line-arrow-right fa-2xl header-icons" id="user"></i>
+          <!-- <img class="icon" id="cart" src="../images/shopping-cart.png" alt="cart icon"> -->
+          <i class="fa-brands fa-opencart fa-2xl" id="cart"></i>
+        </aside>
+      </aside>
+     </div>
+  </header> 
+
+
+
+  <!-- MAIN CONTENT -->
+  <main class="item-form__container">
+    <h1 class="item-form__title">Add Items</h1>
+    <div class="item-form__form-box__container">
+      <div class="item-form__info-input__container">
+        <section class="item-form__img__container">
+          <form action="" class="img__upload">
+            <label for="photo">Choose a File</label>
+            <input required type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png">
+          </form>
+          <div class="uploaded__container">
+            <!-- uploaded image appears here -->
+          </div>
+          <!-- eventually create drag/drop zone for image upload -->
+        </section>
+  
+        <section class="item-form__form-box">
+          <!-- FORMS -->
+          <form action="" id="input-form">
+            <table class="input-form__table">
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="category">Category</label>
+                </td>
+                <td class="table__row-input">
+                  <select autofocus name="category" id="category">
+                    <option value="men">Men's Apparel</option>
+                    <option value="women">Women's Apparel</option>
+                    <option value="products">Products/Other</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="item-name">Item Name</label>
+                </td>
+                <td class="table__row-input">
+                  <input required type="text" name="item-name" id="item-name">
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="description">Description</label>
+                </td>
+                <td class="table__row-input">
+                  <textarea required name="description" id="description" cols="40" rows="10"></textarea>
+                </td>
+              </tr>
+              <tr class="table__rows">
+                <td class="table__row-label">
+                  <label for="manufacturer">Manufacturer</label>
+                </td>
+                <td class="table__row-input">
+                  <input required type="text" name="manufacturer" id="manufacturer">
+                </td>
+              </tr>
+            </table>
+            <!-- FORM BUTTONS -->
+            <div class="btn__container">
+              <button id="form-submit" class="form-btn">Submit</button>
+              <button id="form-clear" class="form-btn">Clear</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <!-- border -->
+    <span id="seperate"></span>
+    <div class="submission-table__container">
+      <!-- table to be updated when input is Submitted -->
+      <table id="submission-table">
+        <tr class="row-headers">
+          <th class="row-header__title">ID</th>
+          <th class="row-header__title">Category</th>
+          <th class="row-header__title">Name</th>
+          <th class="row-header__title">Description</th>
+          <th class="row-header__title">Manufacturer</th>
+          <th class="row-header__title">Time</th>
+        </tr>
+      </table>
+    </div>
+  </main>
+  
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer__info">Streamline Fitness © 2023</p>
+  </footer>
+</body>
+</html>
