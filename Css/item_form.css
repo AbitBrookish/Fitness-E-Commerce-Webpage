@@ -83,3 +83,24 @@
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
+
+
+/* submitted item details */
+#submission-table,
+.row-header__title {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.submission-table__container {
+  width: 100%;
+}
+
+#submission-table {
+  width: 100%;
+}
+
+.row-header__title {
+  background-color: rgba(0,0,0,0.25);
+  padding: 0.25rem;
+}
