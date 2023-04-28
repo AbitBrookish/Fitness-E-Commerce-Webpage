@@ -62,4 +62,18 @@
 
 .form-btn {
   padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+
 }
+
+#form-submit:hover,
+#form-submit:active {
+  background-color: rgb(50, 137, 112);
+  color: cornsilk;
+  letter-spacing: 0.125rem;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+
