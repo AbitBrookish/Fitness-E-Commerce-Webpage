@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <script src="https://kit.fontawesome.com/d419e20cdd.js" crossorigin="anonymous"></script>
+    <title>Streamline-Fit</title>
+</head>
+<body>
+    <header class="header">
+        <logo class="fitness-logo">
+          <a href="/index.html" id="logo">
+            <img src="../images/logo.png">
+          </a>
+        </logo>
+       
+        <div class="header-icons">
+          <form action="" method="get" id="search__container">
+            <input type="search" name="searchbar" placeholder="Search..." id="search-bar">
+          </form>
+          <aside class="icon-container">
+            <aside class="icon-container">
+              <!-- <img class="icon" id="user" src="../images/user.png" alt="user icon"> -->
+              <i class="fa-solid fa-person-walking-dashed-line-arrow-right fa-2xl header-icons" id="user"></i>
+              <!-- <img class="icon" id="cart" src="../images/shopping-cart.png" alt="cart icon"> -->
+              <i class="fa-brands fa-opencart fa-2xl" id="cart"></i>
+            </aside>
+          </aside>
+         </div>
+      </header>       
+
+
+    <div class="flexbox"   style="text-align: center;"><h1>Member Login</h1>
+    </div>
+  
+    <!-- Main Login details-->
+    <main>
+    <form onsubmit="return inputInfo();" action="index.html" method="post" id="inputInfo">
+     <label for="Username"></label>
+      <div style="text-align:center">
+        <input class= "form-control"   type="text" id="Username"   
+          name="Username" required minlength = "6" 
+            maxlength="15" size="25" placeholder="Username">
+      </div>
+
+    <label for="Password"></label>
+      <div style="text-align: center;">
+        <input  class="form-control" type="text" id="Password" 
+          name="Password" required minlength = "25" 
+          maxlength="45" size="25" placeholder="Last Name">
+      </div>
+  
+      
+      <div style="text-align: center;">
+           <button class="Login" type="submit" onclick="inputInfo()" value="Login">Login</button>
+      </div>
+    </main> 
+    
+    <!-- footer -->
+        <footer class="footer">
+            <p class="footer__info">Streamline Fitness © 2023</p>
+        </footer>
+
+    </form>  
+  </body>
+</body>
+</html>
