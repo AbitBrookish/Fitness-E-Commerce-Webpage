@@ -53,11 +53,11 @@
 
 /* BUTTONS */
 .btn__container {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 3.6rem;
 }
 
 .form-btn {
