@@ -1,0 +1,19 @@
+/* Banner Video */
+.video-container {
+  border: 1px dotted black;
+  height: 42.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-video {
+  width: 90%; 
+  height: 90%;
+}
+
+/* Info Section */
+.info__container {
+  border: 1px dotted black;
+  height: 24rem;
+}
