@@ -16,6 +16,9 @@
 .info__container {
   border: 1px dotted black;
   height: 32rem;
+  /* fix background image and gradient */
+  background: url('/images/nicolas-hoizey-Lno6-CxVXgo-unsplash.jpg') no-repeat center center/cover, 
+              linear-gradient(45deg, rgba(50, 137, 112, 0.75), rgba(50, 137, 112, 0.2));
 }
 
 .info__items {
