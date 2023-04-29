@@ -58,3 +58,33 @@
   font-size: 0.95rem;
   line-height: 1.5rem;
 }
+
+/* Mission */
+.mission__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+  height: 30rem;
+}
+
+li {
+  list-style: none;
+}
+
+.img-container {
+  width: 30%;
+  height: 100%;
+  background-color: #328970;
+  background-image: url('/images/dmitrii-vaccinium-ByUAo3RpA6c-unsplash.jpg'); /* a placeholder image could change it later */
+  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container_our_mission {
+  border: 1px dotted black;
+  height: 100%;
+}
