@@ -47,7 +47,7 @@ logo, img {
   opacity: 0.8;
 }
 
-
+/* Navbar */
 .main-navbar {
    display: flex;
    align-items: center;
@@ -58,16 +58,20 @@ logo, img {
   display: flex;
   justify-content: space-around;
   margin-left: 120px;
-  gap: 80px;
+  gap: 1.5rem;
 }
 
 .main-navbar__link {
+  display: flex;
+  /* margin-right: 10px; */
   text-decoration: none;
-  background-color: rgb(113, 183, 163);
-  border: 2px solid black;
-  padding: 6px 16px;
+  color: cornsilk;
+  /* background-color: rgb(113, 183, 163); */
+  /* border: 2px solid black; */
+  /* padding: 6px 16px; */
   border-radius: 8px;
 }
+
 .main-navbar__link:hover,
 .main-navbar__link:active {
   /* possible box shadow, some fx */
@@ -108,13 +112,6 @@ logo, img {
   width: 30px;
   height: 30px;
   margin-right: 0.75rem;
-}
-
-.main-navbar__link {
-    display: flex;
-    margin-right: 10px;
-    color:black
-     
 }
 
 
