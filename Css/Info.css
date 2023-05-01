@@ -1,0 +1,31 @@
+.about-us__header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 35px;
+    
+   }
+   
+
+.item-list{
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: space-evenly;
+     padding: 65px;
+     
+   }
+
+   .info-list__item-content{
+    padding-top: 50px;
+    padding: 20px;
+    font-size: larger;
+    justify-content: space-evenly;
+    
+   }
+
+.info-list__item-btn{
+ margin-top: 40px;
+ 
+
+   }
