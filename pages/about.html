@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/style.css">
+  <script src="https://kit.fontawesome.com/d419e20cdd.js" crossorigin="anonymous"></script>
   <title>About Us</title>
-  <link rel="stylesheet" href="./Css/style.css">
 </head>
 <body>
   <header class="header">
@@ -19,17 +20,24 @@
         <a href="../pages/women-apparel.html" class="main-navbar__link">Women</a>
         <a href="../pages/men-apparel.html" class="main-navbar__link">Men</a>
         <a href="../pages/products.html" class="main-navbar__link">Products</a>
+        <a href="../pages/about.html" class="main-navbar__link">About Us</a>
         <a href="../pages/item_form.html" class="main-navbar__link">Item Management</a>
       </div>
     </nav>
     <div class="header-icons">
-      <img #search-bar src="../images/searching-bar.png" alt="site search bar">
+      <form action="" method="get" id="search__container">
+        <input type="search" name="searchbar" placeholder="Search..." id="search-bar">
+      </form>
       <aside class="icon-container">
-       <img class="icon" id="user" src="../images/user.png" alt="user icon">
-       <img class="icon" id="cart" src="../images/shopping-cart.png" alt="cart icon">
+        <aside class="icon-container">
+          <!-- <img class="icon" id="user" src="../images/user.png" alt="user icon"> -->
+          <i class="fa-solid fa-person-walking-dashed-line-arrow-right fa-2xl header-icons" id="user"></i>
+          <!-- <img class="icon" id="cart" src="../images/shopping-cart.png" alt="cart icon"> -->
+          <i class="fa-brands fa-opencart fa-2xl" id="cart"></i>
+        </aside>
       </aside>
      </div>
-   </header> 
+  </header> 
   
   <!-- It may be better to use flexbox than a table to display the 'About Us' page -->
   <!-- <table>
