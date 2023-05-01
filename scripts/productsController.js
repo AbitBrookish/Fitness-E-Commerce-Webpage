@@ -6,18 +6,22 @@ class ProductsController {
     this.id = currentId;
   }
 
-  addProduct(category, name, description, manufacturer, img) {
+  addProduct(category, itemName, description, manufacturer, img) {
     const item = {
       // increment the id property
       id: this.id++,
       category: category,
-      name: name,
+      name: itemName,
       description: description,
       manufacturer: manufacturer,
       img: img
     };
 
+    // push product to the array
     this.product.push(item);
+
+    // save items to local storage
+    localStorage.setItem('product', JSON.stringify(this.product));
   }
 }
 
