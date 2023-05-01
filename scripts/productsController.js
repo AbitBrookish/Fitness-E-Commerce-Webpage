@@ -1,14 +1,22 @@
 // create class 
 class ProductsController {
-  constructor(currentId) {
+  constructor(currentId = 0) {
+    // set constructor for class
     this.product = [];
-    currentId = 0;
     this.id = currentId;
   }
 
-  addProduct(category, name, description, manufacturer) {
-    this.id++;
-    const item = {category, name, description, manufacturer};
+  addProduct(category, name, description, manufacturer, img) {
+    const item {
+      // increment the id property
+      id: this.id++,
+      category: category,
+      name: name,
+      description: description,
+      manufacturer: manufacturer,
+      img: img
+    };
+
     this.product.push(item);
   }
 }
