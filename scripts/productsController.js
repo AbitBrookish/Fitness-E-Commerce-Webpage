@@ -11,8 +11,7 @@ class ProductsController {
   }
 }
 
-// test class
-const Shoes = new ProductsController;
+// // test class
+// const Shoes = new ProductsController;
+// Shoes.addProduct('womens apparel', 'ultra-bounce runner', 'lightweight shoes meant for speedwalking and jogging', 'Nike');
 // console.log(Shoes);
-Shoes.addProduct('womens apparel', 'ultra-bounce runner', 'lightweight shoes meant for speedwalking and jogging', 'Nike');
-console.log(Shoes);
