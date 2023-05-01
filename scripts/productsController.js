@@ -24,16 +24,12 @@ class ProductsController {
 // test class instances
 
 // create new instance of products
-const Shoes = new ProductsController();
-const Pants = new ProductsController();
-const Vitamins = new ProductsController();
+const controller = new ProductsController();
 
 // add products to each
-Shoes.addProduct('women', 'runners', 'hightop', 'Adidas', '/img/shoes.png');
-Pants.addProduct('women', 'yo-gahs', 'stretchy', 'Nike', '/img/pants.png');
-Vitamins.addProduct('products', 'Tylenol', 'BigPharma', '/img/vitamin.png');
+controller.addProduct('women', 'runners', 'hightop', 'Adidas', '/img/shoes.png');
+controller.addProduct('women', 'yo-gahs', 'stretchy', 'Nike', '/img/pants.png');
+controller.addProduct('products', 'Tylenol', 'BigPharma', '/img/vitamin.png');
 
 // log instances to console
-console.log(Shoes);
-console.log(Pants);
-console.log(Vitamins);
+console.log(controller);
