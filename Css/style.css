@@ -72,11 +72,6 @@ logo, img {
   border-radius: 8px;
 }
 
-/* .main-navbar__link:hover,
-.main-navbar__link:active {
-  /* possible box shadow, some fx */
-} */
-
 .header-icons {
   display: flex;
   align-items: center;
