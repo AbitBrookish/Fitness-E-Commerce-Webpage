@@ -7,7 +7,7 @@ class ProductsController {
   }
 
   addProduct(category, name, description, manufacturer, img) {
-    const item {
+    const item = {
       // increment the id property
       id: this.id++,
       category: category,
