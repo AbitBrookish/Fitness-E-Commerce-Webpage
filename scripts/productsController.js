@@ -21,19 +21,19 @@ class ProductsController {
   }
 }
 
-// test class
-const Shoes = new ProductsController;
-Shoes.addProduct('womens apparel', 'ultra-bounce runner', 'lightweight shoes meant for speedwalking and jogging', 'Nike');
+// test class instances
+
+// create new instance of products
+const Shoes = new ProductsController();
+const Pants = new ProductsController();
+const Vitamins = new ProductsController();
+
+// add products to each
+Shoes.addProduct('women', 'runners', 'hightop', 'Adidas', '/img/shoes.png');
+Pants.addProduct('women', 'yo-gahs', 'stretchy', 'Nike', '/img/pants.png');
+Vitamins.addProduct('products', 'Tylenol', 'BigPharma', '/img/vitamin.png');
+
+// log instances to console
 console.log(Shoes);
-
-const Pants = new ProductsController;
-Pants.addProduct('mens apparel', 'flex runner', 'Thin fabric', 'Fabletics Men');
 console.log(Pants);
-
-const Watch = new ProductsController;
-Watch.addProduct('accessories', 'apple watch', 'apple watch', 'Apple');
-console.log(Watch);
-
-const Bra = new ProductsController;
-Bra.addProduct('womens apparel', 'The Holder', 'They hold them in place so you don\'t have to', 'Shien');
-console.log(Bra);
+console.log(Vitamins);
